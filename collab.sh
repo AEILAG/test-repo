@@ -2,7 +2,7 @@
 
 git clone "https://github.com/MountainMan12/test-repo.git" "/home/$(whoami)/team-heisenberg"
 
-
+touch details.csv
 cd scripts/
 for file in $(ls);
 do
