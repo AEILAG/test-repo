@@ -1,8 +1,6 @@
 #!/bin/bash
 
 #git clone "https://github.com/MountainMan12/team-heisenberg.git"
-
-touch team-heisenberg.csv
 cd scripts/
 for file in $(ls);
 do
